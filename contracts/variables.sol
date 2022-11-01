@@ -22,4 +22,6 @@ contract variable{
     //Less size of code means less "gas fee" to be paid at the time of publishing the code.
     //No. of lines of code does not affect the "gas fee".
     //"Gas fee" is based on the size of the code.
+
+    uint phoneNumber;
 }
