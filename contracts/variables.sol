@@ -17,7 +17,7 @@ contract variable{
     uint amount;
 
     //uint8 = [0:255] the age cannot be more than 255, so we can use "uint8"
-    //If we use "uint" it may take more size let's say 0.1kb but for "uint8" it'll take only 0.001kb
+    //If we use "uint" it may take more size let's say 0.1kb, becoz "unit = uint256" but for "uint8" it'll take only 0.001kb
     //So, to make a code efficient we should make the code in lesser size.
     //Less size of code means less "gas fee" to be paid at the time of publishing the code.
     //No. of lines of code does not affect the "gas fee".
