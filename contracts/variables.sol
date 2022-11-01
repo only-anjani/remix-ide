@@ -11,7 +11,7 @@ contract variable{
 
     //for age there can be no -ve value so we can use uint
     //for bank balance there can be -ve values also
-    uint8 age = 26;
+    uint8 age;
     uint height;
     int bank_balance;
     uint amount;
@@ -23,5 +23,22 @@ contract variable{
     //No. of lines of code does not affect the "gas fee".
     //"Gas fee" is based on the size of the code.
 
-    uint phoneNumber;
+    
+    //string variable --> bytes & string(characters, alphabets and symbols)
+    //bytes is used if we know a defined no. of characters
+    //like I know the name is anjani which is 6 characters
+    //use string if we don't know the no. of characters
+    //Surname = "kadava" I have defined/hardcoded the value the surname, so when the program is deployed automatically the value is hardcoded.
+    //name I have left without defining, which means at the time of deployment we can assign a value to it.
+
+    bytes6 surname = "Kadava";
+    bytes name;
+    string country;
+
+
+    //bool/boolean variable --> true or false
+    //Do you have a car? Yes or No. i.e., True or False
+
+    bool flag;
+
 }
