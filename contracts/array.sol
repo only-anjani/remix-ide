@@ -23,5 +23,7 @@ contract arraysample{
         return age[_index];
     }
 
+    //Whenever we deploy a Smart Contract we will get a unique Smart Contract address.
+    //for the above code/SC address is --> 0xd9145CCE52D386f254917e481eB44e9943F39138
 }
 
