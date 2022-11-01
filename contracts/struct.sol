@@ -33,7 +33,7 @@ function studentDetails (uint8 _key, bytes32 _name, uint8 _age, uint32 _phoneNo,
 }
 
     //Read function
-    function getSimpliStudentDetails(uint8 _key) public view returns (byte32, uint8, uint32, string memory) {
-        return (simpliStudents[_key].name=_name, simpliStudents[_key].age=_age, simpliStudents[_key].phoneNo=_phoneNo, simpliStudents[_key].addresses=_addresses);
+    function getSimpliStudentDetails(uint8 _key) public view returns (bytes32, uint8, uint32, string memory) {
+        return (simpliStudents[_key].name, simpliStudents[_key].age, simpliStudents[_key].phoneNo, simpliStudents[_key].addresses);
     }
 }
