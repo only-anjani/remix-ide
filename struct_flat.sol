@@ -1,4 +1,7 @@
 // SPDX-License-Identifier: MIT
+// File: contracts/struct.sol
+
+
 pragma solidity ^0.8.0;
 
     //Struct will make sure that all the "assets(student)" are present in the created 'struct'.
@@ -40,3 +43,4 @@ function studentDetails (uint8 _key, string memory _name, uint8 _age, uint32 _ph
 
 //SC address for the above SC is --> 0xd8b934580fcE35a11B58C6D73aDeE468a2833fa8
 // New SC --> 0x798c101c3db3f7bd6d0169f8972d04742f3f0233bb895fbed840ecaf57aecf47
+
